@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angularv-home-work2"
+    }
+  },
+  "defaultProject": "angularv-home-work2",
+  "cli": {
+    "analytics": "d3a6a31b-c107-496d-ac3e-5ba2cbfe826a"
+  }
 }

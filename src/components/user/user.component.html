@@ -1,0 +1,8 @@
+<div>
+  <div > UserId:  {{ user.id}}</div>
+  <div>Name: {{user.name}}</div>
+  <div>City: {{user.address.city}}</div>
+  <div>Email: {{user.email}}</div>
+  <br>
+  <button (click)="allPostLog(user.id)">Get Post</button>
+</div>

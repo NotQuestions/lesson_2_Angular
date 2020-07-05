@@ -1,0 +1,8 @@
+<div class="post-main">
+  <div class="post-main"><b>PostId:</b> {{post.userId}} </div>
+  <div class="post-main"><b>Title:</b>  {{post.title.toUpperCase()}}</div>
+  <div class="post-main"><b>Body:</b> {{post.body}}</div>
+  <br>
+  <button (click)="allCommentsToLog(post.id)">Comment</button>
+</div>
+
